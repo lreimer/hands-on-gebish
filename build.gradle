@@ -10,8 +10,9 @@ ext {
     ext {
         gebVersion = '4.0'
         seleniumVersion = '3.141.59'
-        chromeDriverVersion = '88.0.4324.96'
-        geckoDriverVersion = '0.28.0'
+        // chromeDriverVersion = '91.0.4472.19'
+        chromeDriverVersion = '90.0.4430.24'
+        geckoDriverVersion = '0.29.0'
     }
 }
 
@@ -33,6 +34,7 @@ dependencies {
 }
 
 webdriverBinaries {
+    driverUrlsConfiguration = resources.text.fromFile('package.json')
     chromedriver {
         version = chromeDriverVersion
         fallbackTo32Bit = true
