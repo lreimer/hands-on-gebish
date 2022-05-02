@@ -1,6 +1,6 @@
 plugins {
     id 'groovy'
-    id "com.github.erdi.webdriver-binaries" version "2.4"
+    id "com.github.erdi.webdriver-binaries" version "2.7"
 }
 
 ext {
@@ -8,10 +8,11 @@ ext {
     drivers = ["firefox", "chrome", "chromeHeadless", "chromeRemote", "firefoxRemote"]
 
     ext {
-        gebVersion = '4.0'
-        seleniumVersion = '3.141.59'
+        gebVersion = '4.1'
+        seleniumVersion = '4.1.4'
         // chromeDriverVersion = '91.0.4472.19'
-        chromeDriverVersion = '90.0.4430.24'
+        // chromeDriverVersion = '90.0.4430.24'
+        chromeDriverVersion = '101.0.4951.41'
         geckoDriverVersion = '0.29.0'
     }
 }

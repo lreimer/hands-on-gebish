@@ -2,6 +2,20 @@
     "drivers": [
         {
             "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "101.0.4951.41",
+            "url": "https://chromedriver.storage.googleapis.com/101.0.4951.41/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "101.0.4951.41",
+            "url": "https://chromedriver.storage.googleapis.com/101.0.4951.41/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
             "platform": "windows",
             "bit": "32",
             "version": "91.0.4472.19",

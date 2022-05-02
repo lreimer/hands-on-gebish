@@ -21,7 +21,7 @@ class HomePageSpec extends GebReportingSpec {
         report "index page"
 
         and: 'the headline is correct'
-        assertThat headline.text(), containsString("Qualität und Agilität")
+        assertThat headline.text(), containsString("FOKUS AUF IMPACT")
     }
 
     def "Navigate to the career page"() {
@@ -31,7 +31,7 @@ class HomePageSpec extends GebReportingSpec {
         then: 'the career page is displayed correctly'
         waitFor { at CareerPage }
         report "career page"
-        assertThat headline.text(), containsString("ARBEITSPLATZ")
+        assertThat headline.text(), containsString("WIR BEWERBEN UNS BEI DIR")
     }
 
     def "Navigate to the community page"() {
@@ -41,6 +41,6 @@ class HomePageSpec extends GebReportingSpec {
         then: 'the community page is displayed correctly'
         waitFor { at CommunityPage }
         report "community page"
-        assertThat headline.text(), containsString("IT-Community")
+        assertThat headline.text(), containsString("VORTRÄGE")
     }
 }
