@@ -13,7 +13,7 @@ ext {
         // chromeDriverVersion = '91.0.4472.19'
         // chromeDriverVersion = '90.0.4430.24'
         chromeDriverVersion = '101.0.4951.41'
-        geckoDriverVersion = '0.29.0'
+        geckoDriverVersion = '0.31.0'
     }
 }
 
